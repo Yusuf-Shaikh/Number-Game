@@ -35,13 +35,8 @@
     margin: 0 auto;
     background-color:rgb(48, 48, 48);
     border: white 1px solid;
-    cursor: pointer;
   }
   
-  .button{
-    cursor: pointer;
-  
-  }
   .timer{
     display: block;
     padding: 20px;
