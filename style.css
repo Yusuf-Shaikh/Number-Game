@@ -1,0 +1,143 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+  }
+  .row{
+    display: inline;
+  }
+  .button{
+    float: left;
+    height: 68px;
+    width: 68px;
+    margin: 0;
+    padding: 0;
+    margin: 2px;
+    color: black;
+    border: #000 solid 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 70px;
+    
+  }
+  .container{
+    border-radius: 10px;
+    width: 370px;
+    height: 296px;
+    padding: 0;
+    display: none;
+    margin: 0 auto;
+    background-color:rgb(48, 48, 48);
+    border: white 1px solid;
+    cursor: pointer;
+  }
+  
+  .button{
+    cursor: pointer;
+  
+  }
+  .timer{
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  .highscore{
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  .top{
+    display: flex;
+    justify-content:flex-end;
+    padding:0;
+    font-size: 23px;
+  }
+  .about{
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .msg{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    line-height: 296px;
+    cursor: pointer;
+  }
+  .cards{
+    display: none;
+  }
+  .newgame{
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(48, 48, 48);
+    border:  white 1px solid;
+  }
+  .newgame:hover{
+    background-color: #fff;
+    color: rgb(48, 48, 48);
+    transition: 0.3s;
+  }
+  .chooselvl{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+  }
+  #easy{
+    background-color: rgb(49, 226, 25);
+    padding: 10px;
+    width: 130px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+  }
+  #medium{
+    background-color: rgb(25, 49, 226);
+    padding: 10px;
+    width: 130px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+  }
+  #hard{
+    background-color: rgb(226, 25, 25);
+    padding: 10px;
+    width: 130px;
+    margin: 10px  auto;
+    text-align: center;
+    cursor: pointer;
+  }
+  @media screen and (max-width:420px){
+    .container{
+        width: 296px;
+        height: 370px;
+    }
+    .top{
+        flex-flow: column-reverse;
+    }
+    .about{
+      width: 296px;
+    }
+    .msg{
+      line-height: 370px;
+    }
+    .newgame{
+      background-color:rgb(48, 48, 48);
+    }
+}
